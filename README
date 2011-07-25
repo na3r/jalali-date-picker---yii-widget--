@@ -1,0 +1,18 @@
+@author Naser kholghi <kholghi67@gmail.com>
+Usage :
+
+download and extract in Yii_web_root/protected/widgets
+
+put this code in your view
+
+ <?php  
+  echo CHtml::textField('datepicker');
+  $this->widget('application.widgets.JalaliDatePicker.JalaliDatePicker',array('textField'=>'datepicker',	
+ 	'options'=>array(
+ 		'changeMonth'=>'true',
+ 		'changeYear'=>'true',
+ 		'showButtonPanel'=>'true',
+ 	)
+ ));?>
+
+
